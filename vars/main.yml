@@ -1,2 +1,4 @@
 ---
 # vars file for iac-ansible-local-users
+sysadmin: suporte
+user: fox.bennett
