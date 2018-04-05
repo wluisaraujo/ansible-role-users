@@ -1,13 +1,13 @@
 ---
 # tasks file base-linux for iac-ansible-local-users
 
-- name: Configurando usuário "Suporte"
+- name: Configurando usuário {{ sysadmin }}
   become: true
-  user: name=suporte 
+  user: name={{ sysadmin }} 
         state=present 
         shell=/bin/bash 
-        comment="Analista de Suporte"
         password=$1$XplcWy1D$DgTZQDOdpr41R8vKYlgLa.
         createhome=yes
+        home=/home/{{ sysadmin }}
         groups=wheel
 ...
