@@ -4,9 +4,9 @@
 - name: Configurando usuário no ambiente Windows
   become: true
   win_user:
-          name: suporte
-          fullname: Analista de Suporte
-          description: suporte@dexter.com.br
+          name: {{ user }}
+          fullname: {{ user }}
+          description: {{ user }}@dexter.com.br
           password: 4linux
           state: present
           account_disabled: false
