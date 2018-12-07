@@ -2,18 +2,18 @@
 # tasks file base-windows for iac-ansible-local-users
 
 - name: Configurando usuário no ambiente Windows
-  become: true
+# become: true
   win_user:
-          name: {{ user }}
-          fullname: {{ user }}
-          description: {{ user }}@dexter.com.br
-          password: 4linux
-          state: present
-          account_disabled: false
-          account_locked: false
-          password_never_expires: true
-          groups:
-                  - Users
-                  - Administrators
-          when: ansible_os_family == "Windows"
+    name: {{ user }}
+    fullname: {{ user }}
+    description: {{ user }}@dexter.com.br
+    password: 4linux
+    state: present
+    account_disabled: false
+    account_locked: false
+    password_never_expires: true
+    groups:
+      - Users
+      - Administrators
+  when: ( ansible_os_family == "Windows" )
 ...
