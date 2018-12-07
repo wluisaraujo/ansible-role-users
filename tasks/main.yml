@@ -13,7 +13,7 @@
   import_tasks: base-linux.yml
   when: ( ansible_system == "Linux" )
 
-- name: Configuracao de usuarios locais para ambientes "{{ ansible_distribution }}" versão "{{ ansible_distribution_major_version }}"
-  import_tasks: base-windows.yml
-  when: ( ansible_os_family == "Windows" )
+#- name: Configuracao de usuarios locais para ambientes "{{ ansible_distribution }}" versão "{{ ansible_distribution_major_version }}"
+#  import_tasks: base-windows.yml
+#  when: ( ansible_os_family == "Windows" )
 ...
