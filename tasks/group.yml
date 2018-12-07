@@ -1,7 +1,7 @@
 ---
 # tasks file for local-users 
 - group:
-        name: wheel
-        state: present
-        system: yes
+    name: wheel
+    state: present
+    system: yes
 ...
