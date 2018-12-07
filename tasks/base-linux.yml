@@ -4,7 +4,7 @@
 - name: Configurando usuário {{ sysadmin }}
 #  become: true
   user: 
-    name: {{ sysadmin }} 
+    name: "{{ sysadmin }}"
     state: present 
     shell: /bin/bash 
     password: $1$XplcWy1D$DgTZQDOdpr41R8vKYlgLa.
