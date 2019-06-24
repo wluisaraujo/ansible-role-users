@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: iac-ansible-local-users
   author: w.luis.araujo
   description: "Manage Local Users"
   company: LUSAR | wluisaraujo.github.io
