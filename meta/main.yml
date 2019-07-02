@@ -1,10 +1,10 @@
 galaxy_info:
-  role_name: iac-ansible-local-users
+  role_name: users
   author: w.luis.araujo
-  description: "Manage Local Users"
-  company: LUSAR | wluisaraujo.github.io
-  license: "GPLv3"
-  min_ansible_version: 2.0
+  description: "Infrastructure as Code (IaC) with Ansible role for Manage Local Users"
+  company: "LUSAR | wluisaraujo.github.io"
+  license: "license (GPLv3)"
+  min_ansible_version: 2.4
   platforms:
   - name: Windows
     versions:
@@ -15,6 +15,9 @@ galaxy_info:
   - name: Debian
     versions:
     - all
+  - name: Fedora
+    versions:
+    - all  
   galaxy_tags:
     - system
     - users

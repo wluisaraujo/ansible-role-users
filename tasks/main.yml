@@ -1,5 +1,5 @@
 ---
-# tasks file for local-users
+# tasks file for users
 
 - name: Configurar grupo WHEEL para ambientes "{{ ansible_distribution }}" versão "{{ ansible_distribution_major_version }}"
   import_tasks: group.yml

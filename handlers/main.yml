@@ -1,5 +1,5 @@
 ---
-# handlers file for local-users
+# handlers file for users
 ## SystemD
 - name: Start {{ service_name }}
   systemd:
