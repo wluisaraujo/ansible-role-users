@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Local%20Users-blue.svg)](https://git.io/fjRao)  [![Build Status](https://travis-ci.org/wluisaraujo/iac-ansible-local-users.svg?branch=master)](https://travis-ci.org/wluisaraujo/iac-ansible-local-users)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Local%20Users-blue.svg)](https://git.io/fjRao) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-users.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-users)
 ---
 # IaC: with [Ansible](https://www.ansible.com) role to install and configure [(Linux)Local Users](www.guiafoca.org/)
 ------------
