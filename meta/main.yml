@@ -8,16 +8,23 @@ galaxy_info:
   platforms:
   - name: Windows
     versions:
-    - all
+    - 10
+    - 7
   - name: EL
     versions:
-    - all
+    - 7
+  - name: Fedora
+    versions:
+    - 30
+    - 29	
   - name: Debian
     versions:
     - all
-  - name: Fedora
+  - name: Ubuntu
     versions:
-    - all  
+    - bionic
+    - xenial
+    
   galaxy_tags:
     - system
     - users
