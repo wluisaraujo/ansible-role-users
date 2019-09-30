@@ -18,6 +18,7 @@ Installation
 
 ```console
 vagrant@localhost:~$ ansible-galaxy install wluisaraujo.users
+vagrant@localhost:~$ ansible-galaxy install -r wluisaraujo.users/requirements.txt
 ```
 
 Role Variables
